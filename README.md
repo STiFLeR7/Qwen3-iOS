@@ -18,7 +18,30 @@
 
 ---
 
-## 📋 Table of Contents
+## � Model Artifacts
+
+The ExecuTorch-exported model is hosted on Hugging Face:
+
+👉 https://huggingface.co/STiFLeR7/qwen3-ios-executorch
+
+Files:
+- `qwen3_0.6B_model.pte`
+- `0.6B_config.json`
+
+These are pulled during iOS build time and are **not stored in GitHub**.
+
+---
+
+## 🤗 Why Hugging Face?
+
+- Avoids Git LFS limits
+- ML-native hosting
+- Clean CI/CD integration
+- Scales to multiple quantization variants
+
+---
+
+## �📋 Table of Contents
 
 - [Overview](#-overview)
 - [Key Features](#-key-features)
